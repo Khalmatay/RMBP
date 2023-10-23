@@ -60,4 +60,19 @@
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttonGoTextCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:onClick="goTextCheck"
+        android:text="GoTextCheck"
+        android:textColorHighlight="#C50B0B"
+        android:textColorLink="#850A0A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonNext1"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toEndOf="@+id/buttonBack1"
+        app:rippleColor="#A80303" />
 </androidx.constraintlayout.widget.ConstraintLayout>

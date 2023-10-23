@@ -63,6 +63,9 @@
         <item name="android:textSize">10sp</item>
     </style>
 
+    <style name="ItalicText">text_check_style</style>
+
+    <style name="RedText">text_check_1</style>
 
 
 </resources>

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Kh_lab"
         tools:targetApi="31">
         <activity
+            android:name=".TextCheckActivity"
+            android:exported="false" />
+        <activity
             android:name=".ScreenActivity5"
             android:exported="false" />
         <activity

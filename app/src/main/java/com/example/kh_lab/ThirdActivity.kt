@@ -44,6 +44,10 @@ class ThirdActivity : AppCompatActivity() {
         val randomIntent = Intent(this, CalculatorActivity::class.java)
         startActivity(randomIntent)
     }
+    fun goTextCheck(view: View){
+        val randomIntent = Intent(this, TextCheckActivity::class.java)
+        startActivity(randomIntent)
+    }
 
 
 }
